@@ -27,7 +27,7 @@ import { AppNavItemComponent } from './layouts/full/sidebar/nav-item/nav-item.co
 
 // Import the module from the SDK
 import { AuthModule } from '@auth0/auth0-angular';
-import { AuthButtonComponent } from './layouts/auth-button/auth-button.component';
+import { AuthButtonComponent } from './pages/authentication/auth-button/auth-button.component';
 
 @NgModule({
   declarations: [

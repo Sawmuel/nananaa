@@ -2,7 +2,7 @@ import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
 import { BlankComponent } from './layouts/blank/blank.component';
 import { FullComponent } from './layouts/full/full.component';
-import { AuthButtonComponent } from './layouts/auth-button/auth-button.component';
+import { AuthButtonComponent } from './pages/authentication/auth-button/auth-button.component';
 const routes: Routes = [
   {
     path: '',
